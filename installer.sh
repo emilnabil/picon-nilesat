@@ -8,7 +8,7 @@ echo "==========================================================================
 echo "         install picon-nilesat    "
 cd /tmp
 set -e 
-wget -q  "https://raw.githubusercontent.com/emilnabil/picon-nilesat/main/picon.tar.gz"
+wget -q  "https://drive.google.com/uc?id=14IgldjzFf7_Cbq2YjtxR5dktwFxoGthE&export=download"
 wait
 tar -xzf picon.tar.gz  -C /
 wait
@@ -32,6 +32,7 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
 
 
 
